@@ -1,0 +1,325 @@
+/*Brevan*/
+/*the styling for my imitation national geograhphic site*/
+/*December 14th 2021*/
+/*TEJ20*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li, a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+/*working on header*/
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 10%;
+  background-color: white;
+}
+
+#test{
+  display: flex
+}
+.Navlinks{
+  padding: 0 0px;
+}
+/*styling for login button*/
+#login{
+    font-family: sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.429;
+    background: transparent;
+    border: none;
+    height: 32px;
+    margin: 8px 0;
+    padding: 0 8px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+/*styling for subscribe button*/
+#subscribe{
+  margin-left: 20px;
+  padding: 20px 25px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+  letter-spacing: 4px;
+}
+/*styling for menu button*/
+#menu{
+      font-family: sans-serif;
+    letter-spacing: .1px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    padding-left: 20px; 
+}
+/*styling for search button*/
+#Searchlogo{
+  height: 20px;
+  width: 20px;
+  margin: 1px 4px 0px;
+  padding: 2px;
+}
+/*styling for renew button*/
+#renew{
+  text-decoration: underline;
+  text-decoration-color: #ffce00;
+  text-decoration-thickness: 2px;
+}
+/*the hover animations*/
+#subscribe:hover{
+  background-color: #ffce00;
+}
+#renew:hover{
+  background-color: #ffce00;
+}
+
+.Logo{
+  margin-right: auto;
+}
+h3{
+  display: inline;
+}
+
+.ul {
+  margin-left: auto;
+}
+
+.searchlogo{
+  background-size: cover;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  width: 100%;
+}
+/*main heading*/
+.headings{
+  background-color: black;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 20px;
+  letter-spacing: 3.5px;
+  line-height: 1.19;
+}
+.subheading_1{
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;
+  letter-spacing: .1px;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 300;
+  padding-top: 18px;
+}
+#yellow_underline{
+  text-decoration: underline;
+  text-decoration-color:  #ffce00;
+  text-decoration-thickness: 2px;
+}
+#yellow_underline:hover{
+  background-color: #ffce00;
+  color: black;
+}
+/*styling to get the yellow dash*/
+.yellow_dash{
+  text-align: center;
+  background-color: black;
+  text-decoration: underline;
+  text-decoration-color:  #ffce00;
+  text-decoration-thickness: 5px;
+  padding-bottom: 40px;
+}
+/* working on the styling and affects for the footer*/
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+/*working on footer*/
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: black;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #bbbbbb;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+  font-family: GeoBrandBold,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li a{
+	font-size: 13px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	padding-top: 10px;
+}
+/*animation for footer items*/
+.footer-col ul li a:hover{
+	text-decoration: underline;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: black;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffce00;
+}
+/*working on sign up div*/
+.sign_up_block{
+  text-align: center;
+  padding-bottom: 65px;
+  padding-top: 20px;
+  background-image: url("https://i.natgeofe.com/n/2e2421a3-f3cb-485f-b482-753cce8baaa0/MossForest.adapt.885.1.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.Signup_header{
+      font-family: GeoBrandBold,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    line-height: 1.25;
+    margin: 0 40px;
+    text-transform: uppercase; 
+    color: white;
+}
+.signuptext{
+      font-family: GeoEditRegular,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;
+    letter-spacing: .1px;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0 20px;
+    line-height: 1.39;
+    margin-bottom: 30px;
+    color: white;
+}
+.signup_link{
+  background-color: #ffce00;
+  padding: 16px 120px 16px 120px;
+      font-family: Gill Sans MT,sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 1.429;
+    font-weight:700; 
+}
+/*animation for signup buttom near bottom of page*/
+.signup_link:hover{
+  background-color: white;
+}
+/*working on mission div*/
+.test{
+  margin: auto;
+  width: 60%;
+  
+}
+.box{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 80px;
+  padding-top: 30px;
+}
+#mission_title{
+    font-family: sans-serif;
+    font-size: 28px;
+    line-height: 1.214;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-bottom: 25px;
+    text-transform: none;
+    width: 100%; 
+}
+
+#mission_content{
+}
+.mission_header{
+  text-align: center;
+  font-size: 30px;
+}
+.yellow_dash2{
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color:  #ffce00;
+  text-decoration-thickness: 5px;
+  padding-bottom: 40px;
+  color: white;
+}
+.content{
+  padding-left: 20px;
+  font-family: GeoBrandBold,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+  text-align: left;
+}
+#learn_more{
+  border-style: solid;
+  padding: 10px;
+   font-family: Gill Sans,Gill Sans MT,sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+#learn_more:hover{
+  background-color: black;
+  color: white;
+}
